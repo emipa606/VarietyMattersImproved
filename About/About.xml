@@ -19,11 +19,11 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Cozarkians mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2353847457
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -32,7 +32,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2353847457
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 [h1]What Does This Mod Do?[/h1]
 
 Pawns now have a variety need. Pawns satisfy the need by eating different varieties of foods. 
@@ -100,7 +100,7 @@ By default, sick pawns will temporarily stop caring about varieties. By request,
 
 The original version used a more robust tracking system with cyclical memory dumps that tried to reward pawns for eating new varieties and punish them for eating too much of the same thing. I then added a complex category system to try to add realism and balance for the different food mods available. The result was a system that was unnecessari
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -111,4 +111,3 @@ The original version used a more robust tracking system with cyclical memory dum
 [/list]
 </description>
 </ModMetaData>
-

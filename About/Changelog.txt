@@ -1,4 +1,7 @@
 # Changelog for VarietyMattersImproved
 
+1.0.1.0 - French translation added, thanks qux!
+
+
 1.0.0.0 - First publish
 
