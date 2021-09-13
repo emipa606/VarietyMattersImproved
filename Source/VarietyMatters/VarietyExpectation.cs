@@ -59,7 +59,7 @@ namespace VarietyMatters
                 return ModSettings_VarietyMatters.veryLowVariety;
             }
 
-            if (expectationDef == ExpectationDefOf.Low)
+            if (expectationDef == ExpectationDefOf.Low || ingester.story?.traits?.HasTrait(TraitDefOf.Ascetic) == true)
             {
                 return ModSettings_VarietyMatters.lowVariety;
             }

@@ -5,8 +5,19 @@
 Update of Cozarkians mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2353847457
 
+- Added french translation, thanks qux!
+
 ![Image](https://i.imgur.com/pufA0kM.png)
 
+
+[table]
+    [tr]
+        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
+[/td]
+        [td]https://github.com/emipa606/VarietyMattersImproved]![Image](https://i.imgur.com/kTkpTOE.png)
+[/td]
+    [/tr]
+[/table]
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -84,7 +95,7 @@ By default, sick pawns will temporarily stop caring about varieties. By request,
 # How is This Different than the Original Variety Matters?
 
 
-The original version used a more robust tracking system with cyclical memory dumps that tried to reward pawns for eating new varieties and punish them for eating too much of the same thing. I then added a complex category system to try to add realism and balance for the different food mods available. The result was a system that was unnecessari
+The original version used a more robust tracking system with cyclical memory dumps that tried to reward pawns for eating new varieties and punish them for eating too much of the same thing
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
