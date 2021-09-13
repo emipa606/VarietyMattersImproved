@@ -1,5 +1,8 @@
 # Changelog for VarietyMattersImproved
 
+1.0.3.0 - Prisoners and slaves should now also at most require low variety
+
+
 1.0.2.0 - Ascetic pawns should now not require more than low variety
 
 
