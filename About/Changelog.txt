@@ -1,5 +1,8 @@
 # Changelog for VarietyMattersImproved
 
+1.0.4.0 - Should now longer block crafting when 'Use ingredients and meals when tracking variety' is disabled
+
+
 1.0.3.0 - Prisoners and slaves should now also at most require low variety
 
 

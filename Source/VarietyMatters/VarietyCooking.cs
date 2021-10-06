@@ -32,44 +32,36 @@ namespace VarietyMatters
         private static bool BestVarietyInSet(ref bool __result, List<Thing> availableThings, Bill bill,
             List<ThingCount> chosen, IntVec3 rootCell, ref bool alreadySorted)
         {
-            bool result;
             if (ModSettings_VarietyMatters.ignoreIngredients || !ModSettings_VarietyMatters.preferVariety)
             {
+                return true;
+/*
                 result = __result;
-            }
-            else
-            {
-                if (bill.recipe.workSkill != SkillDefOf.Cooking || bill.recipe.ProducedThingDef == null ||
-                    bill.recipe.specialProducts != null)
-                {
-                    result = true;
-                }
-                else
-                {
-                    var varietyRecord = VarietyRecord.GetVarietyRecord(Chef);
-                    if (varietyRecord == null || varietyRecord.recentlyConsumed == null)
-                    {
-                        result = true;
-                    }
-                    else
-                    {
-                        SortIngredients(availableThings, rootCell, varietyRecord.recentlyConsumed);
-                        var allowMixingIngredients = bill.recipe.allowMixingIngredients;
-                        if (allowMixingIngredients)
-                        {
-                            __result = BestVariety_AllowMix(availableThings, bill, chosen);
-                            result = false;
-                        }
-                        else
-                        {
-                            alreadySorted = true;
-                            result = true;
-                        }
-                    }
-                }
+*/
             }
 
-            return result;
+            if (bill.recipe.workSkill != SkillDefOf.Cooking || bill.recipe.ProducedThingDef == null ||
+                bill.recipe.specialProducts != null)
+            {
+                return true;
+            }
+
+            var varietyRecord = VarietyRecord.GetVarietyRecord(Chef);
+            if (varietyRecord == null || varietyRecord.recentlyConsumed == null)
+            {
+                return true;
+            }
+
+            SortIngredients(availableThings, rootCell, varietyRecord.recentlyConsumed);
+            var allowMixingIngredients = bill.recipe.allowMixingIngredients;
+            if (allowMixingIngredients)
+            {
+                __result = BestVariety_AllowMix(availableThings, bill, chosen);
+                return false;
+            }
+
+            alreadySorted = true;
+            return true;
         }
 
         // Token: 0x06000008 RID: 8 RVA: 0x000022F0 File Offset: 0x000004F0

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Variety Matters Improved (Continued)</name>
   <packageId>Mlie.VarietyMattersImproved</packageId>
@@ -24,6 +24,7 @@ Update of Cozarkians mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2353847457
 
 - Added french translation, thanks qux!
+- Set a maximum of low variety for prisoners, slaves and ascetic pawns
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 

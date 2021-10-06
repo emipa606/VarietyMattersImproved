@@ -6,18 +6,10 @@ Update of Cozarkians mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2353847457
 
 - Added french translation, thanks qux!
+- Set a maximum of low variety for prisoners, slaves and ascetic pawns
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/VarietyMattersImproved]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
