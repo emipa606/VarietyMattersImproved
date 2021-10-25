@@ -1,5 +1,8 @@
 # Changelog for VarietyMattersImproved
 
+1.0.5.0 - Last update, added end-of-life message
+
+
 1.0.4.0 - Should now longer block crafting when 'Use ingredients and meals when tracking variety' is disabled
 
 
